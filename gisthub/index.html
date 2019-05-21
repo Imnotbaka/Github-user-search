@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/fontawesome5.7.2/css/all.css" />
+    <script src="github.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="ui.js"></script>
+    <title>AJAX</title>
+  </head>
+
+  <body class="bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a href="" class="navbar-brand">Guthubapplication</a>
+      </div>
+    </nav>
+    <br />
+    <br />
+    <div class="container ">
+      <div class="card border-primary mb-3">
+        <div class="card-header searchContainer">Header</div>
+        <div class=" card card-body ">
+          <h1>Search Github</h1>
+          <div class="form-group">
+            <label for="searchUser">Enter username to fetch user profile</label>
+            <input type="text" class="form-control" id="searchUser" />
+          </div>
+        </div>
+      </div>
+      <br />
+      <div id="profile"></div>
+    </div>
+    <footer class="mt-5 p-3 text-center bg-dark">
+      Github Application &copy;
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
